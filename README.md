@@ -1,2 +1,17 @@
-# FunFund
-gamified budgeting that promotes healthy spending habits
+## FunFund
+This project is for the Scenarios portion of the Design and Professional Skills I ENGF0034 module, created by me, Cayden, and Artem.
+
+## Introduction
+Around 6 in 7 adults reported that the cost of living is one of the most important issues facing the UK, and with a majority reporting that their cost of living had increased compared to a month ago [1]. No doubt, managing finances responsibly and budgeting have become incredibly important. 
+Current solutions in generic budgeting apps largely employ restrictive budgeting, which sets sharp limits and uses negative feedback for overspending. This approach, similar to dieting, not only punishes the user but may also increase user turnover when they fail to follow the budget [2]. 
+This project seeks to provide a novel solution for budgeting. Instead of the status quo, positive reinforcement and gamification will be used to balance between necessities and luxury spending. The target audience will be young adults and college students, as they are the demographic that would not have had as much experience in financial management; however, the product would not be limited to them. 
+### Overview
+The FunFund gamifies the task of budget planning through the use of a point system, where spending on necessities earns users a certain amount of points, tentatively named Fun Tokens. The amount earned is calculated through a specified ratio, which the user may set. The amount of Fun Tokens can be visually represented as a “Token Bar”, similar to a video game “Mana Bar” or a Treasure Chest. The Tokens will then be used to inform the user on how much they may spend on luxury goods or services. In this way, Fun Tokens are effectively earned through manually logging transactions. 
+If the spending is on necessities, tokens will be earned and can be used up at a certain rate for luxury spending. Spending will be categorised into three separate types: Necessities, Fixed Recurring, and Luxuries. This determines how the user’s Fun Tokens will be handled. 
+A streak system will be utilised, called the “Boring Streak”, which increases the amount of Fun Tokens earned for longer streaks. It counts the consecutive days on which the user made no luxury spending. This rewards discipline, encouraging delayed gratification, which in turn promotes greater financial responsibility. 
+To prevent overspending, two systems will be put in place, an emergency safety valve, which tracks spending and may warn a user or lock Fun Token access when spending exceeds safe limits determined by available amount for spending, and also a Token Cap, which limits the total amount of tokens a user can earn weekly, and will be determined dynamically by considering the user’s disposable income. 
+Saving goals are also used, which is a specific amount the user can set as a target for the monthly amount of money to be saved. This will be initially asked at start-up, dynamically calculating the user’s disposable income. 
+The rate at which Fun Tokens are gained and spent will be determined through a set ratio, which can be user-set. Alternatively, the ratio is dynamically calculated. This is done through considering the user’s income and saving goals, the Token Cap, the Boring Streak, necessity spending, etc. 
+The initial start-up will query the user for their income, saving goals, rent, fixed bills and subscriptions, estimates for the amount of spending on necessities for each type of necessity, such as groceries or transport, as this would be necessary for the calculations used.
+
+
